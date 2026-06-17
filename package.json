@@ -1,5 +1,5 @@
 {
-  "name": "mutilate",
+  "name": "multi-model-voice-chat",
   "version": "1.0.0",
   "description": "Minimal multi-model voice chat scaffold with MCP-style integrations",
   "type": "module",
