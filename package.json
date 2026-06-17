@@ -1,0 +1,21 @@
+{
+  "name": "multi-model-voice-chat",
+  "version": "1.0.0",
+  "description": "Minimal multi-model voice chat scaffold with MCP-style integrations",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinasx/Mutilate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinasx/Mutilate/issues"
+  },
+  "homepage": "https://github.com/avinasx/Mutilate#readme"
+}

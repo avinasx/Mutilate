@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Model Voice Chat</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+      }
+
+      .controls {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      button,
+      select {
+        padding: 0.5rem 0.75rem;
+      }
+
+      #status {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Voice Chat Control Panel</h1>
+    <p>
+      Select your AI backend and connect tools like GitHub and Jira for MCP-style
+      workflow integrations.
+    </p>
+
+    <div class="controls">
+      <label for="model-select">AI backend</label>
+      <select id="model-select" aria-label="AI backend"></select>
+
+      <button data-connect="github" type="button">Connect GitHub</button>
+      <button data-connect="jira" type="button">Connect Jira</button>
+    </div>
+
+    <p id="status" aria-live="polite"></p>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
